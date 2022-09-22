@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+        text-align: center;
+}
+
+.navbar{
+    height: 50px;
+}
+.searchbar{
+    margin-top: 50px;
+}
+
+.carousel-inner .carousel-item img {
+    width: 640px;
+    height: 360px;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+}
+
+.categoriesList li{
+    list-style: none;
+        border-bottom: 1px solid rgb(151, 147, 147);
+        padding: 10px 40px 10px 0;
+        margin: 10px 40px 10px 0;
+}
+.categoriesList li a{
+    text-decoration: none;
+    color: rgb(124, 126, 128);
+}
+
+.testomonial .carousel-inner {
+    margin: 50px auto;
+    width: 500px;
+}
+
+.testomonial .carousel-inner img {
+    height: 100px;
+    width: 100px;
+}
+
+.footer{
+    height: 100px;
+    bottom: 0;
+    background-color: rgb(167, 152, 152);
+    
+}
+
+.footer p{
+    text-align: justify;
+    font-size: x-small;
+}
