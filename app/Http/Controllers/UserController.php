@@ -26,4 +26,8 @@ class UserController extends Controller
     {
         return View('admin.viewUser');
     }
+    // public function viewUser()
+    // {
+    //     return View('admin.viewUser/1');
+    // }
 }

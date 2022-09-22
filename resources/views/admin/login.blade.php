@@ -35,10 +35,10 @@
                 </div>
                 <div class=" justify-content-center fs-3 mb-3">
                     <!-- <button class="btn btn-primary w-100" type="submit">login</button> -->
-                    <a href="#" class="btn btn-primary w-100" type="submit">Login</a>
+                    <a href="{{url('dashboard')}}" class="btn btn-primary w-100" type="submit">Login</a>
                 </div>
                 <div class=" justify-content-center mb-3">
-                    <a href="#" class="btn btn-success w-100" type="submit">Register</a>
+                    <a href="{{url('register')}}" class="btn btn-success w-100" type="submit">Register</a>
                 </div>
             </form>
         </div>

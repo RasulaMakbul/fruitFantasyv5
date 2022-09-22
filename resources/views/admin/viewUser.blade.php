@@ -49,8 +49,8 @@
                             </div>
 
                             <div class=" justify-content-center fs-3 mb-3">
-                                <a href="#" class="btn btn-secondary w-50 mt-5" type="submit">Edit</a>
-                                <a href="#" class="btn btn-success w-50 mt-1" type="submit">Back to List</a>
+                                <a href="{{url('editUser')}}" class="btn btn-secondary w-50 mt-5" type="submit">Edit</a>
+                                <a href="{{url('userList')}}" class="btn btn-success w-50 mt-1" type="submit">Back to List</a>
                             </div>
                         </div>
                     </div>

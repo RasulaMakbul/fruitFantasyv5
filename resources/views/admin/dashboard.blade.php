@@ -28,10 +28,10 @@
             </a>
         </div>
         <div class="items">
-            <li><i class="fa-solid fa-chart-pie"></i><a href="#">Dashboard</a></li>
-            <li><i class="fa-solid fa-border-all"></i><a href="#">Categories</a></li>
-            <li><i class="fa-solid fa-apple-whole"></i><a href="#">Products</a></li>
-            <li><i class="fa-solid fa-users"></i><a href="#">Users</a></li>
+            <li><i class="fa-solid fa-chart-pie"></i><a href="{{url('dashboard')}}">Dashboard</a></li>
+            <li><i class="fa-solid fa-border-all"></i><a href="{{url('categoryList')}}">Categories</a></li>
+            <li><i class="fa-solid fa-apple-whole"></i><a href="{{url('productList')}}">Products</a></li>
+            <li><i class="fa-solid fa-users"></i><a href="{{url('userList')}}">Users</a></li>
             <li><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Order List</a></li>
             <li><i class="fa-solid fa-file-invoice-dollar"></i><a href="#">Invoice</a></li>
             <li><i class="fa-solid fa-star-half-stroke"></i><a href="#">Reviews</a></li>
@@ -122,8 +122,8 @@
                         <td>Apple</td>
                         <td>100</td>
                         <td>
-                            <a href="#" class="link-success"><i class="fa-solid fa-eye fs-5 me-3"></i></a>
-                            <a href="#" class="link-info"><i class="fa-solid fa-pen-to-square fs-5 me-3"></i></a>
+                            <a href="{{url('viewProduct')}}" class="link-success"><i class="fa-solid fa-eye fs-5 me-3"></i></a>
+                            <a href="{{url('editProduct')}}" class="link-info"><i class="fa-solid fa-pen-to-square fs-5 me-3"></i></a>
                             <a href="#" class="link-danger"><i class="fa-solid fa-trash fs-5"></i></a>
                         </td>
                     </tr>

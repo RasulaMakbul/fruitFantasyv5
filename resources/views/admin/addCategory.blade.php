@@ -15,7 +15,7 @@
             </div>
             <div class=" justify-content-center fs-3 mb-2">
                 <button class="btn btn-primary" type="submit" name="submit">Save</button>
-                <a href="#" class="btn btn-success " type="submit">back</a>
+                <a href="{{url('categoryList')}}" class="btn btn-success " type="submit">back</a>
             </div>
         </form>
     </div>

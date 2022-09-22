@@ -30,10 +30,10 @@
     </nav>
     <div class="sidebar bg-secondary text-white">
         <div class="items">
-            <li><i class="fa-solid fa-chart-pie"></i><a href="#">Dashboard</a></li>
-            <li><i class="fa-solid fa-border-all"></i><a href="#">Categories</a></li>
-            <li><i class="fa-solid fa-apple-whole"></i><a href="#">Products</a></li>
-            <li><i class="fa-solid fa-users"></i><a href="#">Users</a></li>
+            <li><i class="fa-solid fa-chart-pie"></i><a href="{{url('dashboard')}}">Dashboard</a></li>
+            <li><i class="fa-solid fa-border-all"></i><a href="{{url('categoryList')}}">Categories</a></li>
+            <li><i class="fa-solid fa-apple-whole"></i><a href="{{url('productList')}}">Products</a></li>
+            <li><i class="fa-solid fa-users"></i><a href="{{url('userList')}}">Users</a></li>
             <li><i class="fa-solid fa-cart-arrow-down"></i><a href="#">Order List</a></li>
             <li><i class="fa-solid fa-file-invoice-dollar"></i><a href="#">Invoice</a></li>
             <li><i class="fa-solid fa-star-half-stroke"></i><a href="#">Reviews</a></li>

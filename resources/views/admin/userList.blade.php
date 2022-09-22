@@ -20,8 +20,8 @@
                     <td>1111</td>
                     <td>male</td>
                     <td>
-                        <a href="#" class="link-success"><i class="fa-solid fa-eye fs-5 me-3"></i></a>
-                        <a href="#" class="link-info"><i class="fa-solid fa-pen-to-square fs-5 me-3"></i></a>
+                        <a href="{{url('viewUser')}}" class="link-success"><i class="fa-solid fa-eye fs-5 me-3"></i></a>
+                        <a href="{{url('editUser')}}" class="link-info"><i class="fa-solid fa-pen-to-square fs-5 me-3"></i></a>
                         <a href="#" class="link-danger"><i class="fa-solid fa-trash fs-5"></i></a>
                     </td>
                 </tr>

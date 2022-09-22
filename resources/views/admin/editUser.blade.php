@@ -55,7 +55,7 @@
                 <button class="btn btn-primary w-100" type="submit" name="submit">Save</button>
             </div>
             <div class=" justify-content-center fs-3 mb-5 p-1">
-                <a href="#" class="btn btn-success w-100" type="submit">Back</a>
+                <a href="userList" class="btn btn-success w-100" type="submit">Back</a>
             </div>
         </form>
     </div>
